@@ -5,7 +5,7 @@
 " This program is under a MIT License
 
 " syntax theme
-" Are valid options: 'default', 'emacs', 'friendly' and 'colorful'
+" Valid options are: 'default', 'emacs', 'friendly' and 'colorful'
 if !exists('g:rtfp_theme')
   let g:rtfp_theme = 'default'
 end
