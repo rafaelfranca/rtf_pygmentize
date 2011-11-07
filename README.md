@@ -1,20 +1,18 @@
 # Vim RTF Pygmentize
 
-Suppose you will write a presentation using Keynote and needs to converts chunks of code to Keynote without losing 
-syntax highlighting. This plugins helps you with that: it converts pieces of code to RTF and copies it to
+Suppose you will write a presentation using Keynote and need to convert chunks of code to Keynote without losing 
+syntax highlighting. This plugin helps you with that: it converts pieces of code to RTF and copies it to
 the OSX clipboard.
 
-It is basically a wrapper around [pygments](http://pygments.org/) library, and was created to
-help me adding chunks of code to my keynote presentations.
+It is basically a wrapper around the [pygments](http://pygments.org/) library, and was created to
+help me adding chunks of code to my Keynote presentations.
 
 ## Dependencies
 
-For now, this plugin only works on OS X but I would be grateful if someone make it works in
+Right now this plugin only works on OS X, but I would be grateful if someone make it work in
 another systems.
 
-To use it you will need the pygments library. To install use the easy_install package manager with:
-
-Before installing this plugin itself, you need to install the pygments library. Do this using this command:
+Before installing the plugin, you need to install the pygments library. You can do it with the following command:
 
 ```
 easy_install pygments
@@ -22,8 +20,7 @@ easy_install pygments
 
 ## Configuration
 
-
-There is two available options to configure this plugin:
+There are two available options to configure this plugin:
 
 ```vim
 " Valid options are: 'default', 'emacs', 'friendly' and 'colorful'
@@ -38,7 +35,7 @@ let g:rtfp_font = 'Monaco'
 
 ## Usage
 
-To highlight a file, you can use this:
+To highlight a file, you can use:
 
 ```vim
 :RTFPygmentize
