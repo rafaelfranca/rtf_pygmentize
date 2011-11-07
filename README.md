@@ -3,13 +3,13 @@
 This plugin is used to syntax highlight pieces of code to RTF and it automatically copies it to the OSX clipboard.
 This was basically done to scratch an itch while building my keynote presentations.
 
-This plugin is basically a wraper around [pygments](http://pygments.org/) library.
+This plugin is basically a wrapper around [pygments](http://pygments.org/) library.
 
 ## Dependencies
 
 For now, this plugin only works on MacOS X but I would be grateful if someone make it works in others systems
 
-To use it we need the pygments lubrary. To install use the easy_install packet manage with:
+To use it we need the pygments library. To install use the easy_install package manager with:
 
 ```
 easy_install pygments
@@ -17,7 +17,7 @@ easy_install pygments
 
 ## Configuration
 
-You can configure this plugin using two options
+You can configure this plugin using two options:
 
 ```vim
 " Are valid options: 'default', 'emacs', 'friendly' and 'colorful'
