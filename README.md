@@ -27,6 +27,8 @@ There are two available options to configure this plugin:
 let g:rtfp_theme = 'emacs'
 ```
 
+You can use the [vim2pygments](https://github.com/honza/vim2pygments) project to generate more themes to pygments using your vim themes.
+
 and
 
 ```vim
